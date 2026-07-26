@@ -12,13 +12,15 @@ date: 2026-07-25
 
 最开始，我在 CSDN 写博客。但是，后来，感觉它渐渐变的封闭了。比如，如果我现在不登录我的账号，我冲 VIP 才能看到我之前的一些文章。虽然，我从来没有做过这些限制。
 
-后来，我搭建自己的 wordpress 写内容，现在很自由了。管理面板，从宝塔切换到 1panel。博客前面再套一层 Cloudflare。总体上来说，比较舒服了。
+后来，我搭建自己的 wordpress 写内容。管理面板，从宝塔切换到 1panel。博客前面再套一层 Cloudflare。总体上来说，比较舒服了。
 
 但是，最近几个月，我又感到不舒服了，因为 AI 来了。我放弃了语雀，因为不方便我直接使用 AI 生成内容。我采用了 obsidian 来写文档，然后通过它的插件，一键发布到 wordpress 。但这，还是需要到 wordpress 后台微调下内容。
 
-我想更简单粗暴点的方案。
+我想要更简单粗暴点的方案。
 
-我找到了 wikijs 。它的理念是不错的。它可以本地编辑，然后推动到git仓库中。wikijs 拉取 git 中的内容，渲染显示。wikijs 页面也提供了编辑功能，编辑后也会自动提交到 git 上。但是 wikijs 有些缺点，不支持自动生成子页面索引，不支持 RSS，还不够好看。
+我找到了 wikijs 。它的理念是不错的。它可以本地编辑，然后推动到git仓库中。wikijs 拉取 git 中的内容，渲染显示。wikijs 页面也提供了编辑功能，编辑后也会自动提交到 git 上。
+
+但是 wikijs 有些缺点，不支持自动生成子页面索引，不支持 RSS，还不够好看。
 
 我又试了 quartz, 它的本质还是渲染 git 上的 markdown 内容。但是用起来还不错。
 
@@ -77,13 +79,13 @@ Clouldflare 真是大善人。
 - baseUrl 指定为自己的域名
 - 开启 comments plugin
   - 需要配置 giscus
-
-## quartz 评估
-
-- 使用文件名作为 URL 的组成部分
+- 开启网站分析。
+  - 国内的话，不好使用 google analytics
+  - 默认不支持百度统计。虽然也可以直接修改代码支持。
+  - 采用了微软的 [Microsoft Clarity](https://clarity.microsoft.com/)
+- 默认使用文件名作为 URL 的组成部分
   - 无法自定义URL
-  - 可以接受。文件名使用全因为也好，避免windows/linux之间的编码问题。
-- 搜索框支持中英文搜索。
-- 开启评论区
-- 默认支持RSS。地址是 https://${baseUrl}/index.xml
+  - 可以接受。文件名使用英文也好，可以避免编码问题。
+- 默认支持RSS。
+  - 地址是 https://${baseUrl}/index.xml
 
