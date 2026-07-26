@@ -196,6 +196,12 @@ plugins:
       position: left
       priority: 30
       group: toolbar
+  - source: "./quartz/plugins/local/rss-icon"
+    enabled: true
+    layout:
+      position: left
+      priority: 32
+      group: toolbar
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
@@ -212,7 +218,12 @@ plugins:
     enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: da1234cao/wiki
+        repoId: R_kgDOTjIwMw
+        category: Announcements
+        categoryId: DIC_kwDOTjIwM84DB-gF
+        lang: zh-CN
     layout:
       position: afterBody
       priority: 10
