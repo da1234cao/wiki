@@ -5,8 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: clarity
-    projectId: xsa9vrhfrn
+    provider: google
+    tagId: G-HGP7XGDFZ7
   locale: zh-CN
   baseUrl: wiki.da1234cao.space
   ignorePatterns:
