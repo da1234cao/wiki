@@ -1,6 +1,9 @@
 ---
-title: Welcome to Quartz
+title: Welcome to da1234cao wiki
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+## 简介
+
+## 分类
+
+- [computer](computer)
