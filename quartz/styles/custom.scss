@@ -1,3 +1,41 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Heading colors inspired by Catppuccin: each level gets its own accent
+// Colors adapted from Tokyo Night palette
+
+article {
+  h1 {
+    color: #7aa2f7;
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.25rem;
+  }
+
+  h2 {
+    color: #9ece6a;
+  }
+
+  h3 {
+    color: #e0af68;
+  }
+
+  h4 {
+    color: #bb9af7;
+  }
+
+  h5 {
+    color: #73daca;
+  }
+
+  h6 {
+    color: var(--secondary);
+  }
+}
+
+// Dark mode: switch to lighter/softer heading colors
+html[saved-theme="dark"] body article {
+  h1 { color: #89b4fa; }
+  h2 { color: #a6e3a1; }
+  h3 { color: #f9e2af; }
+  h4 { color: #cba6f7; }
+  h5 { color: #94e2d5; }
+}
