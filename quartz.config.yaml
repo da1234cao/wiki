@@ -197,12 +197,6 @@ plugins:
       position: left
       priority: 30
       group: toolbar
-  - source: "./quartz/plugins/local/rss-icon"
-    enabled: true
-    layout:
-      position: left
-      priority: 32
-      group: toolbar
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
