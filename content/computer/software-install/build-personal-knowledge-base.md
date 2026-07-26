@@ -94,4 +94,6 @@ Clouldflare 真是大善人。
 - 加入 Google Search Console
   - 使用 DNS 的方式，我没有验证成功
   - 把 Google 给的 googleXXXX.html 直接放到 content/ 下
+- 调整 theme
+  - 
 
