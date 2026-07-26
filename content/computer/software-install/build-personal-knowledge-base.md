@@ -88,4 +88,9 @@ Clouldflare 真是大善人。
   - 可以接受。文件名使用英文也好，可以避免编码问题。
 - 默认支持RSS。
   - 地址是 https://${baseUrl}/index.xml
+- 默认支持站点地图。
+  - 地址是 https://${baseUrl}/sitemap.xml
+- 加入 Google Search Console
+  - 使用 DNS 的方式，我没有验证成功
+  - 把 Google 给的 googleXXXX.html 直接放到 content/ 下
 
