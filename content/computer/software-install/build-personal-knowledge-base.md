@@ -95,5 +95,5 @@ Clouldflare 真是大善人。
   - 使用 DNS 的方式，我没有验证成功
   - 把 Google 给的 googleXXXX.html 直接放到 content/ 下
 - 调整 theme
-  - 
+  - `quartz\styles\custom.scss` 中，自定义了标题颜色
 
