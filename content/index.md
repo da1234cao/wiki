@@ -1,12 +1,12 @@
 ---
-title: Welcome to da1234cao wiki
+title: 生命不止，笔耕不辍
 ---
-
-## 简介
 
 ## 分类
 
-- [computer](computer)
+- [计算机](computer)
+- [健康](health)
+- [生活](life)
 
 ## 附录
 

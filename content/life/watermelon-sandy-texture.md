@@ -3,7 +3,6 @@ title: 沙瓤西瓜的原理
 description: 沙瓤西瓜的成因、核心机制与科学原理
 tags:
   - food
-  - science
 date: 2026-07-26
 ---
 
