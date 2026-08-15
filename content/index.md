@@ -10,5 +10,5 @@ title: 生命不止，笔耕不辍
 
 ## 附录
 
-- 搭建过程：[个人知识库的搭建](computer/software-install/build-personal-knowledge-base.md)
+- 搭建过程：[个人知识库的搭建](computer/software/build-personal-knowledge-base.md)
 - RSS: https://wiki.da1234cao.space/index.xml
