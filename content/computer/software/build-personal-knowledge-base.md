@@ -80,10 +80,7 @@ Clouldflare 真是大善人。
 - 开启 comments plugin
   - 需要配置 giscus
 - 开启网站分析。
-  - 国内的话，不好使用 google analytics
-  - 默认不支持百度统计。虽然也可以直接修改代码支持。
-  - 采用了微软的 [Microsoft Clarity](https://clarity.microsoft.com/)，感觉有点不灵光。
-  - 最后还是用了 google analytics
+  - 用了 google analytics
 - 默认使用文件名作为 URL 的组成部分
   - 无法自定义URL
   - 可以接受。文件名使用英文也好，可以避免编码问题。
