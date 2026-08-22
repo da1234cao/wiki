@@ -86,6 +86,7 @@ Clouldflare 真是大善人。
   - 可以接受。文件名使用英文也好，可以避免编码问题。
 - 默认支持RSS。
   - 地址是 https://${baseUrl}/index.xml
+  - "content-index" 插件中，设置 "includeEmptyFiles: false", 否则 tag 会作为链接，占据咋rss前面，导致最新更新的文章被挤出前十，而无法显示。
 - 默认支持站点地图。
   - 地址是 https://${baseUrl}/sitemap.xml
 - 加入 Google Search Console
