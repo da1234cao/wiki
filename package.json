@@ -85,6 +85,7 @@
     "@quartz-community/tag-list": "^0.1.0",
     "@quartz-community/tag-page": "^0.1.0",
     "@quartz-community/unlisted-pages": "^0.1.0",
+    "@da1234cao/rss-icon": "file:./quartz/plugins/rss-icon",
     "@quartz-themes/core": "^1.0.0",
     "@quartz-themes/tokyo-night": "^1.0.0",
     "ansi-truncate": "^1.4.0",

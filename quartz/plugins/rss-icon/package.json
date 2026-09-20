@@ -1,0 +1,28 @@
+{
+  "name": "@da1234cao/rss-icon",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js",
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "rss-icon",
+    "displayName": "RSS icon",
+    "description": "Adds an RSS link to the left toolbar.",
+    "version": "1.0.0",
+    "category": "component",
+    "components": {
+      "RssIcon": {
+        "name": "rss-icon",
+        "displayName": "RSS icon",
+        "description": "Links to the site's RSS feed.",
+        "version": "1.0.0",
+        "defaultPosition": "left",
+        "defaultPriority": 40
+      }
+    }
+  }
+}
