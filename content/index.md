@@ -1,5 +1,5 @@
 ---
-title: 生命不止，笔耕不辍
+title: home
 date: 2026-07-24
 ---
 
@@ -12,8 +12,3 @@ date: 2026-07-24
 - [读书](reading)
 - [说说](short-posts)
 - [评论](commentary)
-
-## 附录
-
-- 搭建过程：[个人知识库的搭建](computer/software/building-a-personal-knowledge-base.md)
-- RSS: https://wiki.da1234cao.space/index.xml
